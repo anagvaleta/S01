@@ -1,0 +1,14 @@
+1) a) X = 8
+   b) X = joao,
+	Y = 2
+      X = pedro,
+	Y = 5
+      X = jose,
+	Y = 1
+   c) false
+
+
+2) aprovado(X) :-
+    resultado(X, Nota),
+    falta (X, F), 
+    (Nota >= 6 ; F <= 3).
